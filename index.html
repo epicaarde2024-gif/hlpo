@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose an account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg">
+  <div class="login-card" id="loginCard">
+    <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 20px;">
+      <img src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png" class="logo" height="42" alt="logo">
+      <span class="logo-text">Choose an account</span>
+    </div>
+    <ul class="account-list">
+      <li class="account-row" data-name="roblox" data-email="roblox@com.com">
+        <div class="avatar avatar-blue">R</div>
+        <div class="accinfo">
+          <b>roblox@com.com</b><br>
+          <span class="email">roblox@com.com</span>
+        </div>
+      </li>
+      <li class="account-row" data-name="cursorai" data-email="cursorai@gmail.com">
+        <div class="avatar avatar-green">C</div>
+        <div class="accinfo">
+          <b>cursorai@gmail.com</b><br>
+          <span class="email">cursorai@gmail.com</span>
+        </div>
+      </li>
+      <li class="other-row" id="useother">Use another account</li>
+    </ul>
+    <div class="footbar">
+      <a>Help</a>
+      <a>Privacy</a>
+      <a>Terms</a>
+    </div>
+  </div>
+</div>
+<script src="login.js"></script>
+</body>
+</html>
